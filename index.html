@@ -50,9 +50,9 @@
             </div>
         </section>
     </header>
-    <main class="lg:w-6xl mx-auto">
+    <main>
         <!--our plants section #E95A08-->
-        <section class="mb-20">
+        <section class="mb-20 lg:w-6xl mx-auto">
             <div class="p-3 text-center lg:w-1/2 mx-auto mb-10 lg:mb-30 space-y-8">
                 <h2 class="text-4xl font-bold"><span class="text-[#E95A08]">Our </span> Plants</h2>
                 <p class="text-gray-500">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we
@@ -118,7 +118,7 @@
             </div>
         </section>
         <!--flower and plants lover section-->
-        <section class="lg:relative lg:pt-15">
+        <section class="lg:relative lg:pt-15 lg:w-6xl mx-auto">
             <div class="flex flex-col lg:flex-row gap-3">
                 <div class="lg:w-1/2 lg:p-5">
                     <img class="h-4/5 mx-auto" src="images/flower-store.png" alt="">
@@ -140,30 +140,74 @@
             </div>
         </section>
         <!--latest deal section-->
-        <section class="mb-20">
+        <section class="mb-20 lg:w-6xl mx-auto">
             <div class="p-3 text-center lg:w-1/2 mx-auto mb-10 lg:mb-30 space-y-8">
                 <h2 class="text-4xl font-bold"><span class="text-[#E95A08]">Latest </span> Deal</h2>
                 <p class="text-gray-500">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
                     roses to exotic blooms, we
                     offer a wide variety of fresh.</p>
             </div>
-            <div class="grid grid-cols-3 gap-5">
-                <div class="border border-amber-400">
-                    <p>60% Off | Bloom Plant</p>
-                    30% Off | Ana Plant
+            <div class="lg:grid lg:grid-cols-3 space-y-5 lg:gap-10 px-3">
+                <div class="flex justify-center items-center text-center rounded-xl h-50 handle-bg1">
+                    <div class="space-y-2">
+                        <p class="font-bold text-white text-lg">60% Off | Bloom Plant</p>
+                        <a class="text-white underline" href="">Shop Now</a>
+                    </div>
                 </div>
-                <div class="col-span-2 row-span-2 border border-amber-400">
-                    <p>25% Off | Zabo Plant</p>
-                    <a href="">Shop Now</a>
+                <div class="col-span-2 row-span-2 flex justify-center text-center items-center lg:h-full h-50 rounded-2xl handle-bg2">
+                    <div class="space-y-2">
+                        <p class="font-bold text-white text-2xl">25% Off | Zabo Plant</p>
+                        <a class="text-white underline"  href="">Shop Now</a>
+                    </div>
                 </div>
-                <div class="border border-amber-400">
-                    <p>30% Off | Ana Plant</p>
-                    30% Off | Ana Plant
+                <div class="flex justify-center items-center text-center h-50 rounded-xl handle-bg3">
+                    <div class="space-y-2">
+                        <p class="font-bold text-white text-lg">30% Off | Ana Plant</p>
+                        <a class="text-white underline"  href="">Shop Now</a>
+                    </div>
                 </div>
             </div>
         </section>
 
+        <!--join bunch section-->
+        <section>
+            <div class="flex justify-center items-center h-52 lg:h-100 bg-[url(/images/news-letter-bg.png)] bg-cover bg-center bg-no-repeat text-center">
+                <div class="space-y-5 relative">
+                    <p class="lg:text-5xl text-3xl text-white font-bold">Join the colorful Bunch</p>
+                    <input class="w-3/4 lg:w-full bg-white py-1 px-3 lg:py-2 lg:px-4 rounded-full" type="email" placeholder="Write Email" name="" id="text">
+                    <button class="bg-[#E95A08] lg:py-2 py-1 px-3 lg:px-8 rounded-full text-white absolute lg:left-98 left-50">Subscribe</button>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer class="lg:w-6xl mx-auto px-5 py-10">
+        <div class="lg:grid lg:grid-cols-3 lg:gap-10 justify-center space-y-5">
+            <div class="space-y-3">
+                <img src="images/logo.png" alt="">
+                <p class="text-gray-400 font-semibold">Indulge your senses with the beauty and <br> fragrance of our fresh flower shop.</p>
+            </div>
+            <div>
+                <ul class="lg:grid lg:grid-cols-2 justify-center text-gray-400 space-y-10 font-semibold">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms of Service</a></li>
+                    <li><a href="">Help Center</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="flex space-x-5">
+                <img class="w-10 h-10" src="/images/icon-facebook.png" alt="">
+                <img class="w-10 h-10" src="/images/icon-linkedin.png" alt="">
+                <img class="w-8 h-8" src="/images/icon-twitter.png" alt="">
+                <img class="w-10 h-10" src="/images/icon-youtube.png" alt="">
+            </div>
+        </div>
+    </footer>
     
 </body>
 </html>

@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+.handle-bg1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("/images/deal-bloom.png");
+    background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.handle-bg2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("/images/deal-zabo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.handle-bg3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("/images/deal-ana.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
